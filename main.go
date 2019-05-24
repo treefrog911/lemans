@@ -16,8 +16,8 @@ type spec struct {
 
 var tags = map[string]spec{
 	"Ambient": {
-		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=1b7fc43d-d2ed-490a-b3b8-c7cba44e3eb8",
-		Notes:   "Pretty chilled, in the bar",
+		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=784d6a45-f662-416e-9707-97241cc69b2d",
+		Notes:   "Ambient temperature",
 		MinTemp: 10,
 		MaxTemp: 30,
 	},
