@@ -100,7 +100,7 @@ func main() {
 		nameCell.SetInnerHTML(name)
 
 		tempCell.SetInnerHTML("loading...")
-		notesCell.SetInnerHTML(data.Notes + " <a href='" + data.GraphURL + "'> my link</a>")
+		notesCell.SetInnerHTML(data.Notes)
 		graphCell.SetInnerHTML("<a href='" + data.GraphURL + "'>Go</a>")
 
 		go getTag(name, data, tempCell)
