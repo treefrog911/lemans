@@ -91,15 +91,17 @@ func main() {
 		tempCell := doc.CreateElement("td")
 		notesCell := doc.CreateElement("td")
 		notesCell.SetAttribute("style", "color: Gray;")
+		graphCell := doc.CreateElement("td")
 
 		row.AppendChild(nameCell)
-
 		row.AppendChild(tempCell)
 		row.AppendChild(notesCell)
+		row.AppendChild(graphCell)
 		nameCell.SetInnerHTML(name)
 
 		tempCell.SetInnerHTML("loading...")
 		notesCell.SetInnerHTML(data.Notes + " <a href='" + data.GraphURL + "'> my link</a>")
+		graphCell.SetInnerHTML("<a href='" + data.GraphURL + "'>Go</a>")
 
 		go getTag(name, data, tempCell)
 	}
