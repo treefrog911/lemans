@@ -99,7 +99,7 @@ func main() {
 		nameCell.SetInnerHTML(name)
 
 		tempCell.SetInnerHTML("loading...")
-		notesCell.SetInnerHTML(data.Notes + "https://my.wirelesstag.net/eth/tempStats.html?19a2237a-c7de-4a8a-9cef-d94bebe16416&Tag%208&C")
+		notesCell.SetInnerHTML(data.Notes + " <a href='" + data.GraphURL + "'> my link</a>")
 
 		go getTag(name, data, tempCell)
 	}
