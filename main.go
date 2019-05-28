@@ -10,7 +10,7 @@ import (
 )
 
 type spec struct {
-	URL, Notes       string
+	URL, Notes, GraphURL       string
 	MaxTemp, MinTemp float64
 }
 
@@ -38,6 +38,7 @@ var tags = map[string]spec{
 		Notes:   "Below 5 C",
 		MinTemp: 10,
 		MaxTemp: 20,
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?19a2237a-c7de-4a8a-9cef-d94bebe16416&Tag%208&C",
 	},
 	"Cask store": {
 		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=d7eeeed2-eb23-4a77-b84d-64f83e3773d2",
