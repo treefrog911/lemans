@@ -20,7 +20,7 @@ var tags = map[string]spec{
 		Notes:   "Ambient temperature",
 		MinTemp: 10,
 		MaxTemp: 30,
-		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?784d6a45-f662-416e-9707-97241cc69b2d&Tag%201&C",
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?784d6a45-f662-416e-9707-97241cc69b2d&Ambient",
 	},
 	"Projector": {
 		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=613741a3-d4d4-42e9-8924-115cb2a60c63",
