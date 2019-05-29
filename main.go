@@ -20,18 +20,21 @@ var tags = map[string]spec{
 		Notes:   "Ambient temperature",
 		MinTemp: 10,
 		MaxTemp: 30,
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?784d6a45-f662-416e-9707-97241cc69b2d&Tag%201&C",
 	},
 	"Projector": {
 		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=613741a3-d4d4-42e9-8924-115cb2a60c63",
 		Notes:   "Keep me cool please!",
 		MinTemp: 0,
 		MaxTemp: 30,
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?613741a3-d4d4-42e9-8924-115cb2a60c63&Tag%202&C",
 	},
 	"Food esky": {
 		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=841d6ade-9796-4f10-8228-45d101548846",
 		Notes:   "Below 5 C",
 		MinTemp: 0,
 		MaxTemp: 5,
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?841d6ade-9796-4f10-8228-45d101548846&Tag%204&C",
 	},
 	"Meat store": {
 		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=19a2237a-c7de-4a8a-9cef-d94bebe16416",
@@ -45,18 +48,21 @@ var tags = map[string]spec{
 		Notes:   "8-12 C",
 		MinTemp: 10,
 		MaxTemp: 20,
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?d7eeeed2-eb23-4a77-b84d-64f83e3773d2&Tag%209&C",
 	},
 	"Bar casks": {
 		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=787b2963-fe7c-43f9-8b40-f1a94ef954db",
 		Notes:   "12C. Range 10-14 C",
 		MinTemp: 10,
 		MaxTemp: 5,
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?787b2963-fe7c-43f9-8b40-f1a94ef954db&Tag%2010&C",
 	},
 	"Bar key kegs": {
 		URL:     "https://my.wirelesstag.net/ethSharedFrame.aspx?pic=1&hide_name=0&hide_temp=0&hide_rh=0&hide_updated=0&hide_signal=1&hide_battery=0&hide_battery_volt=1&hide_motion=1&uuids=e99173af-65d0-476d-90ca-c1669a0bb63a",
 		Notes:   "8C. Range 6-10 C",
 		MinTemp: 10,
 		MaxTemp: 20,
+		GraphURL: "https://my.wirelesstag.net/eth/tempStats.html?e99173af-65d0-476d-90ca-c1669a0bb63a&Tag%2011&C",
 	},
 }
 
